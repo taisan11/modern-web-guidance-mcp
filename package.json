@@ -1,0 +1,24 @@
+{
+  "name": "modern-web-guidance-mcp",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.4.3",
+  "scripts": {
+    "sync": "bun run scripts/sync.ts",
+    "embed": "bun run scripts/embed.ts",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.3",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.151.0"
+  }
+}

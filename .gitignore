@@ -1,0 +1,9 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env
+.DS_Store
+# Generated from upstream Markdown; regenerate with bun run sync
+src/generated/guides.gen.ts
+src/generated/chunks.gen.ts
+src/generated/vectors.gen.ts
